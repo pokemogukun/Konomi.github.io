@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <script src="/lib/javascripts/no_scalable.js"></script>
+  <script src="https://pokemogukun.github.io/Konomi.github.io/lib/javascripts/no_scalable.js"></script>
   
-      <script src="/appconfig/"></script>
+      <script src="https://pokemogukun.github.io/Konomi.github.io/appconfig/"></script>
       
         <title>ログイン</title>
 </head>
@@ -50,7 +50,7 @@
     } else {
       const iOS10 = (getIOSVersion() < 11) ? '.ios10' : ''; // Webpackdで難読化すると、iOS10ではエラーとなる為
       const script = document.createElement('script');
-      script.src = `/login/index.bundle${iOS10}.js?_hash=${new Date().getTime()}`;
+      script.src = `https://pokemogukun.github.io/Konomi.github.io/login/index.bundle${iOS10}.js?_hash=${new Date().getTime()}`;
       document.head.appendChild(script);
     }
   </script>
